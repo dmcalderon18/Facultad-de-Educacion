@@ -1,0 +1,95 @@
+/* Reseteo de márgenes y padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del menú */
+.menu {
+    display: flex; /* Coloca los elementos en línea horizontal */
+    list-style: none; /* Elimina los puntos de la lista */
+    background-color: #b89d2b; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+    justify-content: space-around; /* Espacio uniforme entre elementos */
+}
+
+/* Estilo de los enlaces */
+.menu li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #050505; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Animación en hover */
+}
+
+/* Hover en enlaces */
+.menu li a:hover {
+    background-color: #ffffff; /* Cambia el fondo al pasar el cursor */
+    color: #ffffff; /* Color del texto en hover */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Aplica Roboto al texto de toda la página */
+}
+
+
+/* General */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Encabezado */
+.encabezado {
+    display: flex; /* Organiza los elementos en una línea horizontal */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Espacia los elementos uniformemente */
+    background-color: #f4f4f4; /* Fondo del encabezado */
+    padding: 20px; /* Espaciado interno */
+    gap: 15px; /* Espaciado entre los elementos */
+}
+
+/* Imágenes del encabezado */
+.encabezado .imagen {
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantén la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
+
+/* Texto del encabezado */
+.encabezado .texto {
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+}
+
+
+footer {
+    background-color: #f1ebd5;
+    display: flex;
+    align-items: center;
+    position: relative; /* Necesario para las imágenes absolutas */
+    padding: 10px;
+}
+
+footer img:first-of-type {
+    position: absolute;
+    left: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+footer img:last-of-type {
+    position: absolute;
+    right: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+footer h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    flex: 1;
+}
