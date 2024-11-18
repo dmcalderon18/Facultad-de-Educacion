@@ -53,15 +53,15 @@ body {
 .encabezado .imagen {
     width: 100px; /* Ajusta el tamaño de las imágenes */
     height: auto; /* Mantén la proporción de la imagen */
-    border-radius: 5px; /* Bordes redondeados opcionales */
+    border-radius: 5px; 
 }
 
 /* Texto del encabezado */
 .encabezado .texto {
-    font-size: 18px; /* Tamaño del texto */
-    color: #333; /* Color del texto */
-    text-align: center; /* Centra el texto */
-    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+    font-size: 18px; 
+    color: #333; 
+    text-align: center; 
+    flex: 1; 
 }
 
 
