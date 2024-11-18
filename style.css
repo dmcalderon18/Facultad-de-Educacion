@@ -93,3 +93,18 @@ footer h2 {
     margin: 0;
     flex: 1;
 }
+
+@media (max-width: 120px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header-rigth img {
+        height: 100px;
+        width: 140px;
+    }
+
+    .header-top .logo {
+        height: 120px;
+    }
+}
